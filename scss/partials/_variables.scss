@@ -18,6 +18,7 @@ $brand-danger:          #d9534f !default;
 
 // --- Fonts
 $font-size-base: 18px;
+$font-family-sans-serif: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 $headings-font-family: 'Josefin Sans', sans-serif;
 $line-height-base:        1.428571429 !default; // 20/14
 // --- ------------------------------------------------------------------------------------------------------------- ---
@@ -34,3 +35,4 @@ $navbar-fondle-bg: $color-white;
 $navbar-fondle-border: $gray-lighter;
 $navbar-fondle-brand-color: $gray-darker;
 $navbar-fondle-link-color: $gray-dark;
+$navbar-fondle-toggle-border-color: $gray-lighter;

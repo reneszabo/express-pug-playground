@@ -32,6 +32,7 @@
       color: $navbar-fondle-link-color;
       padding-top: 26px;
       padding-bottom: 18px;
+      font-weight: lighter;
       &:hover,
       &:focus {
         color: $navbar-default-link-hover-color;
@@ -57,7 +58,10 @@
   }
 
   .navbar-toggle {
-    border-color: $navbar-default-toggle-border-color;
+    border-color: $navbar-fondle-toggle-border-color;
+    margin-top: (($navbar-fondle-height - 34px) / 2);
+    margin-bottom: (($navbar-fondle-height - 34px) / 2);
+    border-radius: 0;
     &:hover,
     &:focus {
       background-color: $navbar-default-toggle-hover-bg;
@@ -72,8 +76,15 @@
     border-color: $navbar-fondle-border;
   }
 
+  .navbar-collapse {
+    &.in, &.collapsing {
+      background-color: $navbar-fondle-bg;
+    }
+  }
+
   // Dropdown menu items
   .navbar-nav {
+
     // Remove background color from open dropdown
     > .open > a {
       &,
