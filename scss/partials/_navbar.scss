@@ -7,7 +7,7 @@
   transition-timing-function: ease;
   transition-duration: 0.4s;
   .navbar-brand {
-    padding: $navbar-padding-vertical 0;
+    padding: $navbar-padding-vertical $navbar-padding-horizontal;
     margin-top: (($navbar-cudddle-height - 60px) / 2);
     margin-bottom: (($navbar-cudddle-height - 60px) / 2);
     font-size: $navbar-cudddle-font-size;

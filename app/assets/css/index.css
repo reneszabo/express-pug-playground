@@ -5815,7 +5815,7 @@ button.close {
   transition-timing-function: ease;
   transition-duration: 0.4s; }
   .navbar-cudddle .navbar-brand {
-    padding: 12.5px 0;
+    padding: 12.5px 15px;
     margin-top: 12.5px;
     margin-bottom: 12.5px;
     font-size: 48px;
