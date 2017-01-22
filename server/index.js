@@ -21,7 +21,7 @@ var data = {date: getDate(), followers: rn()};
 app.set('view engine', 'pug');
 app.use(express.static(path.join(__dirname + '/../app/assets')));
 app.set('views', path.join(__dirname + '/../app/views'));
-http.listen(process.env.PORT || 3000, process.env.IP || "localhost", function () {
+http.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function () {
     var addr = http.address();
     console.log("Our server is listening at", addr.address + ":" + addr.port + ' - ' +  getDate());
 });

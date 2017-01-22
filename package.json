@@ -15,10 +15,6 @@
   },
   "contributors": [],
   "main": "server/index.js",
-  "engines": {
-    "node": "~6.9.0",
-    "npm": "~3.10.8"
-  },
   "scripts": {
     "start": "node server/index.js"
   },
