@@ -9,8 +9,8 @@ $(function(){
     }
 
     var waypointNavBar = new Waypoint({
-        element: document.getElementById('how'),
-        offset: 400,
+        element: document.getElementById('hero'),
+        offset: -400,
         handler: function(direction){
             console.log('scrolling direction ', direction);
             if ( direction === 'down') {
