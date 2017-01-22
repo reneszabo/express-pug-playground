@@ -1,0 +1,33 @@
+doctype html
+html
+    head
+        include ./layouts/head
+
+        block scripts
+            script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')
+            script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', crossorigin='anonymous')
+            script(src='js/noframework.waypoints.min.js')
+            script(src='js/main.js')
+        block styles
+            link(rel='stylesheet' href='css/index.css')
+
+    body.loading
+        nav#main-nav.navbar.navbar-fondle.navbar-fixed-top
+            div.container
+                div.navbar-header
+                    button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#main-nav-collapse', aria-expanded='false')
+                        span.sr-only Toggle navegation
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                    a.navbar-brand(href="/") fondle
+                div#main-nav-collapse.collapse.navbar-collapse
+                    ul.nav.navbar-nav.navbar-right
+                        li
+                            a(href="/") Home
+                        li
+                            a(href="/search") Search
+                        li
+                            a(href="/add") Dog needs home ?
+        block content
+        block footer

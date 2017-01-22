@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i');
+$icon-font-path: '../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+@import "./partials/variables";
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "./partials/fonts";
+@import "./partials/navbar";
+body{
+  margin-top: $navbar-fondle-height;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: $gray-lighter 0px 1px 1px;
+  transition-property: opacity;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  opacity: 1;
+  &.loading{
+    opacity: 0;
+  }
+}
+
+section{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+#hero{
+  margin-top: -$navbar-fondle-height;
+  img {
+    max-width: 680px;
+    width: 100%;
+    border-bottom: 2px $gray-dark solid;
+  }
+  h1{
+    font-size: 96px;
+  }
+}
