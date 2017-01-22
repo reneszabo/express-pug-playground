@@ -5902,11 +5902,15 @@ section {
 #hero {
   margin-top: -65px;
   padding-top: 120px;
-  padding-bottom: 120px; }
-  #hero img {
+  padding-bottom: 120px;
+  min-height: 100vh; }
+  #hero video {
     max-width: 680px;
     width: 100%;
     border-bottom: 2px #333333 solid; }
+  #hero img {
+    max-width: 680px;
+    width: 100%; }
   #hero h1 {
     font-size: 96px; }
 
