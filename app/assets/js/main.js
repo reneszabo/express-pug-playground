@@ -4,6 +4,6 @@
 
 $(function(){
     setTimeout(function () {
-        $('body').removeClass('loading');
-    },200);
+        $('body').addClass('loaded');
+    },400);
 });

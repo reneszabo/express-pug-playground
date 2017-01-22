@@ -5884,10 +5884,11 @@ body {
   text-shadow: #eeeeee 0px 1px 1px;
   transition-property: opacity;
   transition-duration: 0.4s;
+  transition-duration: 0.4s;
   transition-timing-function: ease;
-  opacity: 1; }
-  body.loading {
-    opacity: 0; }
+  opacity: 0; }
+  body.loaded {
+    opacity: 1; }
 
 section {
   padding-top: 60px;

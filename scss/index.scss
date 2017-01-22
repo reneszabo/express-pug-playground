@@ -12,9 +12,9 @@ body{
   transition-property: opacity;
   transition-duration: 0.4s;
   transition-timing-function: ease;
-  opacity: 1;
-  &.loading{
-    opacity: 0;
+  opacity: 0;
+  &.loaded{
+    opacity: 1;
   }
 }
 
