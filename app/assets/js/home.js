@@ -4,7 +4,7 @@
 
 $(function(){
     console.log('home');
-    if($(window).scrollTop() === 0) {
+    if($(window).scrollTop() <= 300) {
         $('#main-nav').addClass('fondle-top-hide');
     }
 

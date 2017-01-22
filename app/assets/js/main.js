@@ -3,5 +3,7 @@
  */
 
 $(function(){
-    $('body').removeClass('loading');
+    setTimeout(function () {
+        $('body').removeClass('loading');
+    },200);
 });
