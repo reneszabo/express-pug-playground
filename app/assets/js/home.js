@@ -5,7 +5,7 @@
 $(function(){
     console.log('home');
     if($(window).scrollTop() <= 300) {
-        $('#main-nav').addClass('fondle-top-hide');
+        $('#main-nav').addClass('cudddle-top-hide');
     }
 
     var waypointNavBar = new Waypoint({
@@ -14,9 +14,9 @@ $(function(){
         handler: function(direction){
             console.log('scrolling direction ', direction);
             if ( direction === 'down') {
-                $('#main-nav').removeClass('fondle-top-hide');
+                $('#main-nav').removeClass('cudddle-top-hide');
             } else {
-                $('#main-nav').addClass('fondle-top-hide');
+                $('#main-nav').addClass('cudddle-top-hide');
             }
         }
     });

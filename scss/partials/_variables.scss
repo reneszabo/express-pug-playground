@@ -22,17 +22,17 @@ $font-family-sans-serif: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-s
 $headings-font-family: 'Josefin Sans', sans-serif;
 $line-height-base:        1.428571429 !default; // 20/14
 // --- ------------------------------------------------------------------------------------------------------------- ---
-// --- Colors Fondle
+// --- Colors cudddle
 // --- ------------------------------------------------------------------------------------------------------------- ---
 $color-white: #ffffff;
 // --- ------------------------------------------------------------------------------------------------------------- ---
-// --- Navbar Fondle
+// --- Navbar cudddle
 // --- ------------------------------------------------------------------------------------------------------------- ---
-$navbar-fondle-height: 65px;
-$navbar-fondle-font-size: 48px;
-$navbar-fondle-line-height-computed: floor((35px * $line-height-base)) !default; // ~20px
-$navbar-fondle-bg: $color-white;
-$navbar-fondle-border: $gray-lighter;
-$navbar-fondle-brand-color: $gray-darker;
-$navbar-fondle-link-color: $gray-dark;
-$navbar-fondle-toggle-border-color: $gray-lighter;
+$navbar-cudddle-height: 65px;
+$navbar-cudddle-font-size: 48px;
+$navbar-cudddle-line-height-computed: floor((35px * $line-height-base)) !default; // ~20px
+$navbar-cudddle-bg: $color-white;
+$navbar-cudddle-border: $gray-lighter;
+$navbar-cudddle-brand-color: $gray-darker;
+$navbar-cudddle-link-color: $gray-dark;
+$navbar-cudddle-toggle-border-color: $gray-lighter;

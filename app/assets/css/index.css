@@ -5807,80 +5807,81 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.navbar-fondle {
+.navbar-cudddle {
   background-color: #ffffff;
   border-color: #eeeeee;
   min-height: 65px;
   transition-property: background-color, border-color;
   transition-timing-function: ease;
   transition-duration: 0.4s; }
-  .navbar-fondle .navbar-brand {
+  .navbar-cudddle .navbar-brand {
     padding: 12.5px 15px;
     font-size: 48px;
     line-height: 50px;
     height: 65px;
     color: #222222;
     font-family: "Josefin Sans", sans-serif; }
-    .navbar-fondle .navbar-brand:hover, .navbar-fondle .navbar-brand:focus {
+    .navbar-cudddle .navbar-brand:hover, .navbar-cudddle .navbar-brand:focus {
       color: #5e5e5e;
       background-color: transparent; }
-  .navbar-fondle.fondle-top-hide {
+  .navbar-cudddle.cudddle-top-hide {
     border-color: transparent;
     background-color: transparent; }
-  .navbar-fondle .navbar-text {
+  .navbar-cudddle .navbar-text {
     color: #777; }
-  .navbar-fondle .navbar-nav > li > a {
+  .navbar-cudddle .navbar-nav > li > a {
     color: #333333;
     padding-top: 26px;
     padding-bottom: 18px;
     font-weight: lighter; }
-    .navbar-fondle .navbar-nav > li > a:hover, .navbar-fondle .navbar-nav > li > a:focus {
+    .navbar-cudddle .navbar-nav > li > a:hover, .navbar-cudddle .navbar-nav > li > a:focus {
       color: #333;
-      background-color: transparent; }
-  .navbar-fondle .navbar-nav > .active > a, .navbar-fondle .navbar-nav > .active > a:hover, .navbar-fondle .navbar-nav > .active > a:focus {
+      background-color: transparent;
+      text-decoration: underline; }
+  .navbar-cudddle .navbar-nav > .active > a, .navbar-cudddle .navbar-nav > .active > a:hover, .navbar-cudddle .navbar-nav > .active > a:focus {
     color: #555;
     background-color: #e7e7e7; }
-  .navbar-fondle .navbar-nav > .disabled > a, .navbar-fondle .navbar-nav > .disabled > a:hover, .navbar-fondle .navbar-nav > .disabled > a:focus {
+  .navbar-cudddle .navbar-nav > .disabled > a, .navbar-cudddle .navbar-nav > .disabled > a:hover, .navbar-cudddle .navbar-nav > .disabled > a:focus {
     color: #ccc;
     background-color: transparent; }
-  .navbar-fondle .navbar-toggle {
+  .navbar-cudddle .navbar-toggle {
     border-color: #eeeeee;
     margin-top: 15.5px;
     margin-bottom: 15.5px;
     border-radius: 0; }
-    .navbar-fondle .navbar-toggle:hover, .navbar-fondle .navbar-toggle:focus {
+    .navbar-cudddle .navbar-toggle:hover, .navbar-cudddle .navbar-toggle:focus {
       background-color: #ddd; }
-    .navbar-fondle .navbar-toggle .icon-bar {
+    .navbar-cudddle .navbar-toggle .icon-bar {
       background-color: #888; }
-  .navbar-fondle .navbar-collapse,
-  .navbar-fondle .navbar-form {
+  .navbar-cudddle .navbar-collapse,
+  .navbar-cudddle .navbar-form {
     border-color: #eeeeee; }
-  .navbar-fondle .navbar-collapse.in, .navbar-fondle .navbar-collapse.collapsing {
+  .navbar-cudddle .navbar-collapse.in, .navbar-cudddle .navbar-collapse.collapsing {
     background-color: #ffffff; }
-  .navbar-fondle .navbar-nav > .open > a, .navbar-fondle .navbar-nav > .open > a:hover, .navbar-fondle .navbar-nav > .open > a:focus {
+  .navbar-cudddle .navbar-nav > .open > a, .navbar-cudddle .navbar-nav > .open > a:hover, .navbar-cudddle .navbar-nav > .open > a:focus {
     background-color: #e7e7e7;
     color: #555; }
   @media (max-width: 767px) {
-    .navbar-fondle .navbar-nav .open .dropdown-menu > li > a {
+    .navbar-cudddle .navbar-nav .open .dropdown-menu > li > a {
       color: #333333; }
-      .navbar-fondle .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-fondle .navbar-nav .open .dropdown-menu > li > a:focus {
+      .navbar-cudddle .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-cudddle .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #333;
         background-color: transparent; }
-    .navbar-fondle .navbar-nav .open .dropdown-menu > .active > a, .navbar-fondle .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-fondle .navbar-nav .open .dropdown-menu > .active > a:focus {
+    .navbar-cudddle .navbar-nav .open .dropdown-menu > .active > a, .navbar-cudddle .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-cudddle .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #555;
       background-color: #e7e7e7; }
-    .navbar-fondle .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-fondle .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-fondle .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    .navbar-cudddle .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-cudddle .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-cudddle .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #ccc;
       background-color: transparent; } }
-  .navbar-fondle .navbar-link {
+  .navbar-cudddle .navbar-link {
     color: #333333; }
-    .navbar-fondle .navbar-link:hover {
+    .navbar-cudddle .navbar-link:hover {
       color: #333; }
-  .navbar-fondle .btn-link {
+  .navbar-cudddle .btn-link {
     color: #333333; }
-    .navbar-fondle .btn-link:hover, .navbar-fondle .btn-link:focus {
+    .navbar-cudddle .btn-link:hover, .navbar-cudddle .btn-link:focus {
       color: #333; }
-    .navbar-fondle .btn-link[disabled]:hover, .navbar-fondle .btn-link[disabled]:focus, fieldset[disabled] .navbar-fondle .btn-link:hover, fieldset[disabled] .navbar-fondle .btn-link:focus {
+    .navbar-cudddle .btn-link[disabled]:hover, .navbar-cudddle .btn-link[disabled]:focus, fieldset[disabled] .navbar-cudddle .btn-link:hover, fieldset[disabled] .navbar-cudddle .btn-link:focus {
       color: #ccc; }
 
 body {

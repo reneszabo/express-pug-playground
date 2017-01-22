@@ -1,17 +1,17 @@
 // Default navbar
-.navbar-fondle {
-  background-color: $navbar-fondle-bg;
-  border-color: $navbar-fondle-border;
-  min-height: $navbar-fondle-height;
+.navbar-cudddle {
+  background-color: $navbar-cudddle-bg;
+  border-color: $navbar-cudddle-border;
+  min-height: $navbar-cudddle-height;
   transition-property: background-color, border-color;
   transition-timing-function: ease;
   transition-duration: 0.4s;
   .navbar-brand {
     padding: $navbar-padding-vertical $navbar-padding-horizontal;
-    font-size: $navbar-fondle-font-size;
-    line-height: $navbar-fondle-line-height-computed;
-    height: $navbar-fondle-height;
-    color: $navbar-fondle-brand-color;
+    font-size: $navbar-cudddle-font-size;
+    line-height: $navbar-cudddle-line-height-computed;
+    height: $navbar-cudddle-height;
+    color: $navbar-cudddle-brand-color;
     font-family: $headings-font-family;
     &:hover,
     &:focus {
@@ -19,7 +19,7 @@
       background-color: $navbar-default-brand-hover-bg;
     }
   }
-  &.fondle-top-hide{
+  &.cudddle-top-hide{
     border-color: transparent;
     background-color: transparent;
   }
@@ -29,7 +29,7 @@
 
   .navbar-nav {
     > li > a {
-      color: $navbar-fondle-link-color;
+      color: $navbar-cudddle-link-color;
       padding-top: 26px;
       padding-bottom: 18px;
       font-weight: lighter;
@@ -37,6 +37,7 @@
       &:focus {
         color: $navbar-default-link-hover-color;
         background-color: $navbar-default-link-hover-bg;
+        text-decoration: underline;
       }
     }
     > .active > a {
@@ -58,9 +59,9 @@
   }
 
   .navbar-toggle {
-    border-color: $navbar-fondle-toggle-border-color;
-    margin-top: (($navbar-fondle-height - 34px) / 2);
-    margin-bottom: (($navbar-fondle-height - 34px) / 2);
+    border-color: $navbar-cudddle-toggle-border-color;
+    margin-top: (($navbar-cudddle-height - 34px) / 2);
+    margin-bottom: (($navbar-cudddle-height - 34px) / 2);
     border-radius: 0;
     &:hover,
     &:focus {
@@ -73,12 +74,12 @@
 
   .navbar-collapse,
   .navbar-form {
-    border-color: $navbar-fondle-border;
+    border-color: $navbar-cudddle-border;
   }
 
   .navbar-collapse {
     &.in, &.collapsing {
-      background-color: $navbar-fondle-bg;
+      background-color: $navbar-cudddle-bg;
     }
   }
 
@@ -99,7 +100,7 @@
       // Dropdowns get custom display when collapsed
       .open .dropdown-menu {
         > li > a {
-          color: $navbar-fondle-link-color;
+          color: $navbar-cudddle-link-color;
           &:hover,
           &:focus {
             color: $navbar-default-link-hover-color;
@@ -132,14 +133,14 @@
   // Add a class to ensure links outside the navbar nav are colored correctly.
 
   .navbar-link {
-    color: $navbar-fondle-link-color;
+    color: $navbar-cudddle-link-color;
     &:hover {
       color: $navbar-default-link-hover-color;
     }
   }
 
   .btn-link {
-    color: $navbar-fondle-link-color;
+    color: $navbar-cudddle-link-color;
     &:hover,
     &:focus {
       color: $navbar-default-link-hover-color;

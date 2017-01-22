@@ -5,7 +5,7 @@ $icon-font-path: '../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 @import "./partials/fonts";
 @import "./partials/navbar";
 body{
-  margin-top: $navbar-fondle-height;
+  margin-top: $navbar-cudddle-height;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-shadow: $gray-lighter 0px 1px 1px;
@@ -25,7 +25,7 @@ section{
 
 
 #hero{
-  margin-top: -$navbar-fondle-height;
+  margin-top: -$navbar-cudddle-height;
   padding-top: 120px;
   padding-bottom: 0px;
   min-height: 100vh;
