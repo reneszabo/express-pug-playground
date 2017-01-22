@@ -5810,15 +5810,17 @@ button.close {
 .navbar-cudddle {
   background-color: #ffffff;
   border-color: #eeeeee;
-  min-height: 65px;
+  min-height: 85px;
   transition-property: background-color, border-color;
   transition-timing-function: ease;
   transition-duration: 0.4s; }
   .navbar-cudddle .navbar-brand {
-    padding: 12.5px 15px;
+    padding: 12.5px 0;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
     font-size: 48px;
     line-height: 50px;
-    height: 65px;
+    height: 50px;
     color: #222222;
     font-family: "Josefin Sans", sans-serif; }
     .navbar-cudddle .navbar-brand:hover, .navbar-cudddle .navbar-brand:focus {
@@ -5831,8 +5833,8 @@ button.close {
     color: #777; }
   .navbar-cudddle .navbar-nav > li > a {
     color: #333333;
-    padding-top: 26px;
-    padding-bottom: 18px;
+    margin-top: 25.5px;
+    margin-bottom: 25.5px;
     font-weight: lighter; }
     .navbar-cudddle .navbar-nav > li > a:hover, .navbar-cudddle .navbar-nav > li > a:focus {
       color: #333;
@@ -5846,8 +5848,8 @@ button.close {
     background-color: transparent; }
   .navbar-cudddle .navbar-toggle {
     border-color: #eeeeee;
-    margin-top: 15.5px;
-    margin-bottom: 15.5px;
+    margin-top: 25.5px;
+    margin-bottom: 25.5px;
     border-radius: 0; }
     .navbar-cudddle .navbar-toggle:hover, .navbar-cudddle .navbar-toggle:focus {
       background-color: #ddd; }
@@ -5885,7 +5887,7 @@ button.close {
       color: #ccc; }
 
 body {
-  margin-top: 65px;
+  margin-top: 85px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-shadow: #eeeeee 0px 1px 1px;
@@ -5901,7 +5903,7 @@ section {
   padding-bottom: 60px; }
 
 #hero {
-  margin-top: -65px;
+  margin-top: -85px;
   padding-top: 120px;
   padding-bottom: 0px;
   min-height: 100vh; }
