@@ -29,7 +29,10 @@ http.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function () {
 // --- Express Endpoints
 // --- ------------------------------------------------------------------------------------------------------------- ---
 app.get('/', function (req, res) {
-    res.render('index', { title: 'Hey', message: 'Hello there!' })
+    res.render('index', { })
+})
+app.get('/search', function (req, res) {
+    res.render('search', { })
 })
 // --- ------------------------------------------------------------------------------------------------------------- ---
 // --- Socket IO Settings
