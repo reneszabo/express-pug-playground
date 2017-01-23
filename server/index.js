@@ -14,7 +14,7 @@ var moment = require('moment');
 // --- ------------------------------------------------------------------------------------------------------------- ---
 // --- Global Variables
 // --- ------------------------------------------------------------------------------------------------------------- ---
-var data = {date: getDate(), followers: rn()};
+var data = {date: getDate(), pets: rn()};
 // --- ------------------------------------------------------------------------------------------------------------- ---
 // --- Express Settings
 // --- ------------------------------------------------------------------------------------------------------------- ---
@@ -39,19 +39,20 @@ app.get('/search', function (req, res) {
 // --- ------------------------------------------------------------------------------------------------------------- ---
 io.on('connection', function (socket) {
     console.log('a user connected - ' +  getDate());
-    updateTime();
+    updatePetsWithHome();
     socket.on('disconnect', function () {
         console.log('user disconnected');
     });
     socket.on('update-page', function () {
-        data = {date: getDate(), followers: rn()};
-        updateTime();
+        data.date = getDate();
+        data.pets = data.pets*1 + 1;
+        updatePetsWithHome();
     });
 });
 // --- ------------------------------------------------------------------------------------------------------------- ---
 // --- Global Functions
 // --- ------------------------------------------------------------------------------------------------------------- ---
-function updateTime() {
+function updatePetsWithHome() {
     io.emit('onUpdateData', data);
 }
 function getDate() {

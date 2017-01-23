@@ -41,6 +41,9 @@
         background-color: $navbar-default-link-hover-bg;
         text-decoration: underline;
       }
+      &.cudddle-link-cta {
+        color: $brand-danger;
+      }
     }
     > .active > a {
       &,

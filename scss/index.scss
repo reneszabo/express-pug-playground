@@ -22,7 +22,15 @@ section{
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
+#pets-with-home{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  @extend .label;
+  @extend .label-danger;
+  border-radius: 0;
+  background: $gray-dark;
+}
 
 #hero{
   margin-top: -$navbar-cudddle-height;
@@ -50,7 +58,6 @@ section{
       &:hover{
         font-weight: bold;
       }
-
     }
   }
 }

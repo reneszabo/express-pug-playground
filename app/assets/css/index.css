@@ -239,7 +239,7 @@ th {
   .dropup > .btn > .caret {
     border-top-color: #000 !important; }
 
-  .label {
+  .label, #pets-with-home {
     border: 1px solid #000; }
 
   .table {
@@ -4203,7 +4203,7 @@ tbody.collapse.in {
     background-color: #fff;
     cursor: not-allowed; }
 
-.label {
+.label, #pets-with-home {
   display: inline;
   padding: .2em .6em .3em;
   font-size: 75%;
@@ -4214,13 +4214,13 @@ tbody.collapse.in {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em; }
-  .label:empty {
+  .label:empty, #pets-with-home:empty {
     display: none; }
-  .btn .label {
+  .btn .label, .btn #pets-with-home {
     position: relative;
     top: -1px; }
 
-a.label:hover, a.label:focus {
+a.label:hover, a#pets-with-home:hover, a.label:focus, a#pets-with-home:focus {
   color: #fff;
   text-decoration: none;
   cursor: pointer; }
@@ -4250,9 +4250,9 @@ a.label:hover, a.label:focus {
   .label-warning[href]:hover, .label-warning[href]:focus {
     background-color: #ec971f; }
 
-.label-danger {
+.label-danger, #pets-with-home {
   background-color: #d9534f; }
-  .label-danger[href]:hover, .label-danger[href]:focus {
+  .label-danger[href]:hover, [href]#pets-with-home:hover, .label-danger[href]:focus, [href]#pets-with-home:focus {
     background-color: #c9302c; }
 
 .badge {
@@ -5840,6 +5840,8 @@ button.close {
       color: #333;
       background-color: transparent;
       text-decoration: underline; }
+    .navbar-cudddle .navbar-nav > li > a.cudddle-link-cta {
+      color: #d9534f; }
   .navbar-cudddle .navbar-nav > .active > a, .navbar-cudddle .navbar-nav > .active > a:hover, .navbar-cudddle .navbar-nav > .active > a:focus {
     color: #555;
     background-color: #e7e7e7; }
@@ -5901,6 +5903,13 @@ body {
 section {
   padding-top: 60px;
   padding-bottom: 60px; }
+
+#pets-with-home {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 0;
+  background: #333333; }
 
 #hero {
   margin-top: -85px;
