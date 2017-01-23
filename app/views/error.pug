@@ -2,6 +2,13 @@ extends ./layout
 block content
     section#error
         div.container
-            h1= message
-            h2= error.status
-            pre #{error.stack}
+            div.text-center
+                img(src='img/puppy-8.jpg' alt='Adopt Me - dog')
+                h1= message
+                h5 It happens, let me help you
+                div.start
+                    a(href='/') back to homepage
+            if error.stack
+                div
+                    h2= error.status
+                    pre #{error.stack}

@@ -5925,13 +5925,24 @@ section {
     width: 100%; }
   #hero h1 {
     font-size: 96px; }
-  #hero .start {
-    padding-top: 40px; }
-    #hero .start a {
-      color: #333333;
-      text-decoration: none;
+
+.start {
+  padding-top: 40px; }
+  .start a {
+    color: #333333;
+    text-decoration: none; }
+    .start a:after {
+      content: ' ';
+      display: block;
+      margin: 0 auto;
+      width: 30px;
       border-bottom: 1px #333333 solid; }
-      #hero .start a:hover {
-        font-weight: bold; }
+    .start a:hover {
+      font-weight: bold; }
+
+#error img {
+  max-width: 680px;
+  width: 100%;
+  border-bottom: 2px #333333 solid; }
 
 /*# sourceMappingURL=index.css.map */

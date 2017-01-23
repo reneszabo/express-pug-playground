@@ -49,15 +49,29 @@ section{
   h1{
     font-size: 96px;
   }
-  .start{
-    padding-top: 40px;
-    a{
-      color: $gray-dark;
-      text-decoration: none;
+}
+.start{
+  padding-top: 40px;
+  a{
+    color: $gray-dark;
+    text-decoration: none;
+    &:after{
+      content: ' ';
+      display: block;
+      margin: 0 auto;
+      width: 30px;
       border-bottom: 1px $gray-dark solid;
-      &:hover{
-        font-weight: bold;
-      }
     }
+    &:hover{
+      font-weight: bold;
+    }
+  }
+}
+
+#error{
+  img{
+    max-width: 680px;
+    width: 100%;
+    border-bottom: 2px $gray-dark solid;
   }
 }
