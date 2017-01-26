@@ -1,0 +1,74 @@
+extends ./../layout
+block append scripts
+    script(src='js/registration.js')
+block content
+    section#main
+        form.container(action='/registration', method='POST', enctype='multipart/form-data')
+            div.row
+                div.col-md-4
+                        fieldset
+                            div.form-group
+                                div.input-group
+                                    span.input-group-addon
+                                        i.fa.fa-tag
+                                    input#inputName.form-control(type='text', aria-describedby='nameHelpBlock', name='pet[name]', placeholder='Name or nickname')
+                                span#nameHelpBlock.help-block.small
+                            div.form-group
+                                div.input-group
+                                    span.input-group-addon
+                                        i.fa.fa-camera
+                                    input#inputPicture.form-control(type='file', aria-describedby='pictureHelpBlock', name='pet[picture]', placeholder='Picture')
+                                span#pictureHelpBlock.help-block.small
+                            div.form-group
+                                div.input-group
+                                    span.input-group-addon
+                                        i.fa.fa-calendar
+                                    input#inputAge.form-control(type='date', aria-describedby='ageHelpBlock', name='pet[age]', placeholder='Age')
+                                span#ageHelpBlock.help-block.small
+                            div.form-group
+                                div.input-group
+                                    span.input-group-addon
+                                        i.fa.fa-paw
+                                    input#inputBreed.form-control(type='text', aria-describedby='breedHelpBlock', name='pet[breed]', placeholder='Breed')
+                                span#breedHelpBlock.help-block.small
+                            div.form-group
+                                div.input-group
+                                    span.input-group-addon
+                                        i.fa.fa-venus-mars
+                                    select#inputGender.form-control(aria-describedby='genderHelpBlock', name='pet[gender]', placeholder='Gender')
+                                        option(value='',disabled, selected, hidden) Gender
+                                        option(value='female') female
+                                        option(value='male') male
+                                span#genderHelpBlock.help-block.small
+                            div.form-group
+                                div.input-group
+                                    span.input-group-addon
+                                        i.fa.fa-paw
+                                    textarea#inputBio.form-control(aria-describedby='bioHelpBlock', name='pet[bio]', placeholder='Bio', rows='1')
+                                span#bioHelpBlock.help-block.small
+                div.col-md-8
+                    div.container-fluid.pet-card
+                        div.row
+                            div.col-md-6
+                                div.details
+                                    h2 Ram Spikes
+                                    div.container-fluid
+                                        div.row
+                                            div.col-xs-4
+                                                div.pet-value 3
+                                                div.pet-title age
+                                            div.col-xs-4
+                                                div.pet-value golden
+                                                div.pet-title breed
+                                            div.col-xs-4
+                                                div.pet-value male
+                                                div.pet-title gender
+                                    div At as in understood an remarkably solicitude. Mean them very seen she she. Use totally written the observe pressed justice. Instantly cordially far intention recommend estimable yet her his. Ladies stairs enough esteem add fat all enable. Needed its design number winter see. Oh be me sure wise sons no. Piqued ye of am spirit regret. Stimulated discretion impossible admiration in particular conviction up.
+                            div.col-md-6
+                                div.picture
+                                    div.picture-container
+                                        img.img-responsive(src='img/profile.jpg')
+            div.row
+                div.col-xs-12
+                    div.text-right
+                        button.btn.btn-danger.text-uppercase(type='submit') SAVE

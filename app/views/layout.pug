@@ -4,6 +4,7 @@ html
         include ./layouts/head
         block styles
             link(rel='stylesheet' href='css/index.css')
+            link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
 
         block scripts
             script(src="/socket.io/socket.io.js")
@@ -30,7 +31,7 @@ html
                         li
                             a(href="/search") Search
                         li
-                            a.cudddle-link-cta(href="/add") Does your dog need a home?
+                            a.cudddle-link-cta(href="/registration") Does your dog need a home?
         block content
         block footer
         div#pets-with-home pets with home: #[span#pets-home-number 0]

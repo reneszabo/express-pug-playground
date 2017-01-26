@@ -4,6 +4,8 @@ $icon-font-path: '../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 @import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "./partials/fonts";
 @import "./partials/navbar";
+@import "./partials/form";
+@import "./partials/buttons";
 body{
   margin-top: $navbar-cudddle-height;
   -webkit-font-smoothing: antialiased;

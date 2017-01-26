@@ -4,8 +4,12 @@
 
 ## Install Packages
 
-`npm install`
+```bash
+$ npm install
+```
 
 ## Run Development
 
-`npm start`
+```bash
+$ npm start
+```

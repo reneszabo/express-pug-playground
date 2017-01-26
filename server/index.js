@@ -34,6 +34,9 @@ app.get('/', function (req, res) {
 app.get('/search', function (req, res) {
     res.render('search', { })
 })
+app.get('/registration', function (req, res) {
+    res.render('registration/index', { })
+})
 // --- ------------------------------------------------------------------------------------------------------------- ---
 // --- catch 404 and forward to error handler
 // --- ------------------------------------------------------------------------------------------------------------- ---
