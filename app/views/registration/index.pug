@@ -2,11 +2,11 @@ extends ./../layout
 block append scripts
     script(src='js/registration.js')
 block content
-    section#main
+    section#registration
         form.container(action='/registration', method='POST', enctype='multipart/form-data')
             div.row
                 div.col-md-4
-                        fieldset
+                        fieldset.simple-style-inputs
                             div.form-group
                                 div.input-group
                                     span.input-group-addon
