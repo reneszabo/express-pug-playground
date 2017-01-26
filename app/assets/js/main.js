@@ -9,8 +9,6 @@ $(function(){
     callUpdate();
 });
 
-
-
 var socket = io();
 socket.on('onUpdateData', function (data) {
     $('#pets-home-number').html(data.pets);
