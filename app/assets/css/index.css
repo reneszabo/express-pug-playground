@@ -3829,9 +3829,81 @@ section {
   width: 100%;
   border-bottom: 2px #333333 solid; }
 
+#registration .registration-h2 {
+  margin-top: 0;
+  margin-bottom: 45px; }
 #registration .form-group {
   margin-bottom: 30px; }
 #registration .input-group {
   padding-bottom: 10px; }
+
+.pet-card {
+  padding-left: 70px;
+  padding-right: 0; }
+  .pet-card .pet-bio {
+    font-size: 14px; }
+  .pet-card h2 {
+    margin-top: 0;
+    margin-bottom: 30px; }
+  .pet-card .pet-specs {
+    margin-bottom: 30px; }
+  .pet-card .pet-card-content {
+    border: 0px solid transparent;
+    border-radius: 5px;
+    position: relative; }
+  .pet-card .pet-title {
+    color: #8b8b8b;
+    font-size: 14px; }
+  .pet-card .picture, .pet-card .details {
+    background: white; }
+  .pet-card .details {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 450px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 25px rgba(0, 0, 0, 0.05) inset;
+    padding-top: 45px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-bottom: 45px; }
+  .pet-card .picture {
+    position: relative;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url(/img/profile.jpg);
+    background-position: center;
+    z-index: 6; }
+  .pet-card .pet-card-content-left {
+    position: relative;
+    margin-right: -15px;
+    z-index: 3; }
+    .pet-card .pet-card-content-left:after {
+      content: ' ';
+      position: absolute;
+      z-index: -1;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+      top: 35px;
+      bottom: 35px;
+      left: 17px;
+      right: 50px;
+      -moz-border-radius: 100px / 10px;
+      border-radius: 100px / 10px; }
+  .pet-card .pet-card-content-right {
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 5; }
+    .pet-card .pet-card-content-right:after {
+      content: ' ';
+      position: absolute;
+      z-index: 4;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+      top: 35px;
+      bottom: 35px;
+      left: 0px;
+      right: 50px;
+      -moz-border-radius: 100px / 10px;
+      border-radius: 100px / 10px; }
 
 /*# sourceMappingURL=index.css.map */
