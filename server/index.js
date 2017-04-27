@@ -37,6 +37,9 @@ app.get('/search', function (req, res) {
 app.get('/registration', function (req, res) {
     res.render('registration/index', { })
 })
+app.get('/todo', function (req, res) {
+    res.render('todo/index', { })
+})
 // --- ------------------------------------------------------------------------------------------------------------- ---
 // --- catch 404 and forward to error handler
 // --- ------------------------------------------------------------------------------------------------------------- ---
